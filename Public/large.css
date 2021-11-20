@@ -1,0 +1,18 @@
+@media screen  and (min-width:1601px) and (max-width:1920px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+
+    #explanation{
+        margin-top: 7%;
+    }
+
+    #tBody{
+        margin-top: 0%;
+    }
+
+    .contact_i{
+        margin-left: 1%;
+    }
+
+}

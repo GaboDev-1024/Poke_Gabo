@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    
+}
+
+#_footer{
+    padding-top: 1%;
+    margin-top: 11%;
+    height: 120px;
+    text-align: center;
+}
+
+
+#footer_name{
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+
+}
+
+i{
+    color: white;
+}
+
+#footOne{
+    margin-top: 135px;
+}
+
+/* HEADER */
+.navbar{
+background:#FECA1B;
+padding: 0%;
+}
+
+
+#last_p{
+    margin-bottom: 16%;
+}
+
+#navbarNavAltMarkup>div>a{
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    color: #3F3F47;
+}
+
+.navbar-nav>a{
+    margin-left: 20px;
+}
+
+.container>a{
+    margin-left: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 27px;
+}
+
+.navbar-nav>a{
+    padding: 13px;
+}
+
+.navbar-nav>a:hover{
+    background: rgb(252, 226, 81);
+}
+
+i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-nav>a>i{
+    color: #3f3f3f;
+
+}
+/* END OF HEADER */
+
+
+/* FOOTER */
+#foot{
+    font-size: 15px;
+}
+
+#foot>a{
+    font-size: 15px;
+}
+
+#footer{
+    background: #202329;
+}
+
+#footer>.row{
+    max-width: 100%;
+    max-height: 60px;
+}
+
+#footOne{
+    margin-left: 0px;
+    margin-bottom: 12px;
+}
+
+#footTwo{
+    margin-left: 0px;
+}
+
+
+.row>div>i{
+    color: rgb(150, 150, 147);
+    margin: 2%;
+}
+
+.row>div{
+    margin: 0%;
+    text-align: center;
+}
+
+.row>div>h4{
+    margin-top: 2%;
+    font-size: 20px;
+    color: ivory;
+}
+
+.row>div>h4>a{
+    
+    color: white;
+    font-size: 23px;
+
+}
+
+#footH{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(105, 105, 105);
+    width: 90px;
+}
+
+/* END OF FOOTER */
+
+
+/* EXPLANATION */
+#explanation{
+    margin-top: 4%;
+    margin-bottom: 0%;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 20px;
+}
+
+/* EXPLANATION */
+
+
+/* BOX OF SEARCH POKEMON */
+#boxError{
+    text-align: center;
+    margin-top: 0%;
+    color: rgb(255, 0, 0);
+    font-family: 'Roboto Slab', serif;
+    display: none;
+}
+
+
+#content{
+    min-height: 600px;
+    }
+
+
+#content>div>div:nth-child(3)>img{
+    width: 180px;
+}
+
+#content>div>div:nth-child(2)>h3{
+    padding-top: 6%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 3%;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);    
+}
+
+@media screen and (max-width:500px) {
+    #content>div>div:nth-child(2)>h3{
+        font-size: 16px;
+    }
+    
+
+    #explanation{
+        margin-top: 10%;
+        font-size: 15px ;
+    }
+
+    #pikaIndex{
+        margin-top: 4px;
+    }
+    
+    #footH{
+        margin-bottom: 10px;
+    }
+
+    #foot{
+        margin-bottom: 15px;
+    }
+
+    #dInfo{
+        margin-bottom: 40px;
+    }
+  }
+
+
+#button{
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 65%;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#poke{
+    width: 100%;
+    background: rgb(240, 215, 77);
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 3%;
+    max-width: 90%;
+}
+
+#boxOnee{
+    height: 20px;
+}
+
+#box{
+    margin-top: 0px;
+}
+
+#boxOne{
+    background: #000000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid 1px white;
+    border-right: none;
+
+}
+
+#boxTwo{
+    background: #000000;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: solid 1px white;
+    border-left: none;
+
+}
+
+#pikaIndex{
+    margin-top: -10px;
+}
+/* END OF SEARCH POKEMON */
+
+
+/* DISPLAY INFO */
+
+
+#pikaOne{
+    width: 150px;
+}
+
+#pikaTwo{
+    width: 150px;
+}
+
+#pikaImg{
+    padding-left: 0px;
+}
+
+#info{
+    padding-top: 7%;
+}
+
+#models{
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -40px;
+}
+
+#info>div>h4{
+    margin-bottom: 0px;
+}
+
+#info>div{
+    color: white;
+    margin-bottom: 2%;
+}
+
+#dInfo{
+    margin-top: 2%;
+    padding: 2%;
+    display: none;
+    margin-right: 14px;
+    margin-left: 12px;
+    border-top: 1px solid #FECA1B;
+    border-bottom: 1px solid #FECA1B;
+    margin-bottom: 0%;
+}
+
+h6{
+    display: inline;
+    font-weight: bold;
+}
+
+#imageOne{
+    max-width: 60%;
+}
+
+#imageTwo{
+    max-width: 60%;
+}
+
+#imageThree{
+    max-width: 60%;
+}
+
+#imageFour{
+    max-width: 60%;
+}
+
+/* END OF DISPLAY INFO */
+
+
+/* TYPES OF POKEMON */
+#tBody{
+    min-height: 550px;
+    max-height: 600px;
+}
+
+th{
+    width: 500px;
+    color: white;
+}
+
+/* TYPES OF POKEMON */
+tr>th{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding: 1.5%;
+}
+
+
+tr>td{
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#tBody>div>div:nth-child(2){
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: solid 1px #FECA1B;
+    font-size: 15px;
+}
+
+tr>th:nth-child(2){
+    background-color: rgb(107, 107, 107);
+}
+
+tr>td:nth-child(2){
+    background-color: rgb(107, 107, 107);
+}
+
+tr>td:nth-child(1){
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+tr>td:nth-child(3){
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+

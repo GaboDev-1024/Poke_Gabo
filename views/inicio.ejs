@@ -1,0 +1,82 @@
+<%- include ('Partials/_header.ejs'); %>
+
+<div id="content" class="container">
+    <div class="row">
+        <div class="col-md-3 col-3">
+        </div>
+
+        <div id="explanation" class="col-md-6 col-6">
+            <p><b>Pokegabo.com</b> es un simple ejemplo acerca de como conectar y consumir una API. </p>
+            <p id="last_p">En este caso estamos consumiendo la informacion desde la API <b>https://pokeapi.co/</b> </p>
+            <div id="boxError">
+                <h4>**Hubo un problema con la petición, ingrese un numero o nombre valido!**</h4>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-3">
+        </div>
+    </div>
+
+    <!-- BOX OF SEARCH -->
+    <div id="box" class="row">
+        <div   class="col-md-3 col-1">
+        </div>
+
+        <div  id="boxOne"  id="searchp" class="col-md-3 col-4">
+            <h3 id="textI" style="color: white;">Ingrese el numero o nombre del pokemon:</h3>
+
+            <div class="row">
+                <div   class="col-md-12">
+                    <form onsubmit="return false;" action="/">
+                        <input type="text" name="" id="poke">
+                        <button type="reset" type="button" id="button">Buscar</button>
+                    </form>
+                </div>    
+            </div>
+        </div>
+
+        <div  id="boxTwo"  class="col-md-3 col-6">
+            <img class="img-fluid" id="pikaIndex" src="pika-index.png" alt="">
+        </div>
+
+        <div   class="col-md-2 col-2">
+        </div>
+    </div>
+    <!-- END OF BOX -->
+
+
+
+    <!--DISPLAY INFO -->
+        <div id="dInfo" class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-5 col-6">
+                        <img id="pikaOne" src="pika.png" alt="">
+                    </div>
+                    <div id="info"  class="col-md-6 col-6">
+                        <div><h6>Nombre: </h6><span id="nombre"></span></div>
+                        <div><h6>Altura: </h6><span id="altura"></span></div>
+                        <div><h6>Peso: </h6><span id="peso"></span></div>
+                        <div><h6>Tipo: </h6><span id="tipo"></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+
+                    <div id="models" class="col-md-6 col-8">
+                        <div><img id="imageOne" src="" alt=""><img id="imageTwo" src="" alt=""></div>
+                        <div><img id="imageThree" src="" alt=""><img id="imageFour" src="" alt=""></div>
+                    </div>
+
+                    <div id="pikaImg" class="col-md-6 col-4">
+                        <img  id="pikaTwo" src="pikaDos.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- END OF DISPLAY INFO -->
+</div>
+
+
+ <%- include ('Partials/_footer.ejs'); %>
