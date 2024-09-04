@@ -13,6 +13,6 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 app.listen(
-  process.env.PORT || 5000,
-  console.log('iniciado en el puerto 5000(no dar bola)')
+  process.env.PORT || 5000, '0.0.0.0',()=>{console.log('iniciado en el puerto 5000(no dar bola)')}
+  
 );
